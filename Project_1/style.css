@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand h1 {
+  font-size: 32px;
+}
+
+.nav-brand span {
+  color: darkred;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  transition: all 1s;
+}
+
+.nav-menu a:hovser {
+  color: darkred;
+}
+
+.lgn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: darkred;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 15px;
+  color: aliceblue;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-tagline {
+  width: 50%;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-tagline span {
+  color: darkgoldenrod;
+  display: flex;
+  justify-content: left;
+}
+
+.food-menu {
+  display: flex;
+  margin-top: 80px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.food-card {
+  width: 22%;
+  margin: 20px auto;
+  padding: 30px;
+  /*background-color: white;*/
+  box-shadow: 3px 3px 3px 3px #ccc;
+  border-radius: 4px;
+}
+
+.fc-image {
+  display: flex;
+  justify-content: center;
+}
+
+.fc-image img {
+  width: 30%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
